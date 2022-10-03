@@ -5,7 +5,6 @@ val = ""
 A = 0
 operator = ""
 myPage=""
-flag=True
 myVal=''
 
 img = PhotoImage(file='1.png')

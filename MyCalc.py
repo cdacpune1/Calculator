@@ -175,7 +175,7 @@ def ross():
     ans = StringVar()
 
 
-    txtDisplay = Entry(root, font=('Bahnschrift Light', 20, 'bold'),
+    txt_Display = Entry(root, font=('Bahnschrift Light', 20, 'bold'),
                        bg='black', fg='white',
                        bd=30, width=28, textvariable=ans, justify=RIGHT)
     txtDisplay.grid(row=0, column=0, columnspan=4, pady=1)

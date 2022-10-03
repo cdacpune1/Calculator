@@ -237,7 +237,7 @@ def ross():
 
 
 
-    btn8 = Button(root, text=8, width=6, height=2,
+    btn_8 = Button(root, text=8, width=6, height=2,
     bg='black', fg='white', command=btn_8_is_clicked,
     font=('Bahnschrift Light', 20, 'bold'),
     bd=4, ).grid(row=4, column=1, pady=1)

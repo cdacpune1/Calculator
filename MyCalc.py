@@ -12,8 +12,10 @@ myVal=''
 img = PhotoImage(file='1.png')
 Label(splash_root,image=img, anchor= CENTER).pack()
 #canvas.create_image(400 , 400 ,anchor=CENTER, image=img)
-splash_root.title("calculator")
-splash_root.geometry("600x625+550+550")
+
+splash_root.title("MY_Calculator")
+splash_root.geometry("500x625+550+550")
+
 splash_root.eval('tk::PlaceWindow . center')
 splash_root.overrideredirect(True)
 

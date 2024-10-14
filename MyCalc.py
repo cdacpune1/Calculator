@@ -29,7 +29,7 @@ def ross():
 
     def btn_1_is_clicked():
         global val
-        val = val + "1"
+        val = val + "2"
         ans.set(val)
 
     def btn_2_is_clicked():

@@ -5,14 +5,17 @@ val = ""
 A = 0
 operator = ""
 myPage=""
-flag=True
+
 myVal=''
+
 
 img = PhotoImage(file='1.png')
 Label(splash_root,image=img, anchor= CENTER).pack()
 #canvas.create_image(400 , 400 ,anchor=CENTER, image=img)
+
 splash_root.title("MY_Calculator")
 splash_root.geometry("500x625+550+550")
+
 splash_root.eval('tk::PlaceWindow . center')
 splash_root.overrideredirect(True)
 
@@ -21,7 +24,7 @@ def ross():
     splash_root.destroy()
     root = Tk()
     root.title("Calculator")
-    root.configure(background='white')
+    root.configure(background='black')
     root.resizable(width=True, height=True)
     root.geometry("520x590+350+50")
 
@@ -29,7 +32,7 @@ def ross():
 
     def btn_1_is_clicked():
         global val
-        val = val + "1"
+        val = val + "2"
         ans.set(val)
 
     def btn_2_is_clicked():
@@ -175,7 +178,7 @@ def ross():
     ans = StringVar()
 
 
-    txtDisplay = Entry(root, font=('Bahnschrift Light', 20, 'bold'),
+    txt_Display = Entry(root, font=('Bahnschrift Light', 20, 'bold'),
                        bg='black', fg='white',
                        bd=30, width=28, textvariable=ans, justify=RIGHT)
     txtDisplay.grid(row=0, column=0, columnspan=4, pady=1)
@@ -237,7 +240,7 @@ def ross():
 
 
 
-    btn8 = Button(root, text=8, width=6, height=2,
+    btn_8 = Button(root, text=8, width=6, height=2,
     bg='black', fg='white', command=btn_8_is_clicked,
     font=('Bahnschrift Light', 20, 'bold'),
     bd=4, ).grid(row=4, column=1, pady=1)

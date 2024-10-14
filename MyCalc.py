@@ -21,7 +21,7 @@ def ross():
     splash_root.destroy()
     root = Tk()
     root.title("Calculator")
-    root.configure(background='white')
+    root.configure(background='black')
     root.resizable(width=True, height=True)
     root.geometry("520x590+350+50")
 
